@@ -1,0 +1,88 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+.menu {
+    max-width: 1200px;
+    margin: 40px auto;
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+h1.menu-header {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #e67e22;
+    border-bottom: 2px solid #e67e22;
+    padding-bottom: 10px;
+}
+.section-title {
+    font-size: 1.8em;
+    margin: 20px 0;
+    color: #e67e22;
+    text-align: left;
+    border-bottom: 1px solid #e67e22;
+    padding-bottom: 5px;
+}
+/* Table styling */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #e0e0e0;
+}
+
+table th {
+    background-color: #f1f1f1;
+    color: #333;
+    font-size: 1.2em;
+}
+
+table td {
+    font-size: 1em;
+    color: #555;
+}
+
+table td strong {
+    font-weight: bold;
+    color: #e67e22;
+}
+
+/* Image container */
+.image-container {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+/*for back button and sub pages button*/
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+button {
+    padding: 15px 40px;
+    font-size: 18px;
+    background-color: #e67e22;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+button:hover {
+    background-color: #d35400;
+    transform: scale(1.05);
+}
